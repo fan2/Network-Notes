@@ -51,9 +51,7 @@ macOS 下的浏览器（Safari & Chrome）等应用默认遵循系统偏好设�
 
 ```
 faner@FAN-MB1:~ » export http_proxy=http://proxy.company.com:6543
-faner@FAN-MB1:~ » export https_proxy=$http_proxy
-faner@FAN-MB1:~ » export ftp_proxy=$http_proxy
-faner@FAN-MB1:~ » export all_proxy=$http_proxy
+faner@FAN-MB1:~ » export https_proxy=$http_proxy;export HTTPS_PROXY=$http_proxy;export ftp_proxy=$http_proxy;export all_proxy=$http_proxy;export ALL_PROXY=$http_proxy
 ```
 
 #### SSH Proxy
